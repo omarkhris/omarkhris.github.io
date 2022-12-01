@@ -17,7 +17,7 @@ h1, h2, h3{
     margin-right: 20px;
 }
 
-.ImagesContainer {
-    text-align: end;
-    background-color: #000000;
+.Images {
+    position: absolute;
+    left: 880px;
 }
