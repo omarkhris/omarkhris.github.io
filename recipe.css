@@ -1,0 +1,13 @@
+body{
+    background-image: url("imgs/background.gif");
+    background-color: #cccccc;
+}
+
+h1, h2, h3{
+    background-color: #f0f097;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
