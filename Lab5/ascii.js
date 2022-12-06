@@ -1,4 +1,3 @@
-"use strict";
 const NORMAL_SPEED = 250;
 const TURBO_SPEED = 50;
 let duration = NORMAL_SPEED;
