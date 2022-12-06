@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <title>ASCIImation</title>
         <meta charset="utf-8">
@@ -18,12 +18,12 @@
         <div class="container">
             <fieldset>
                 <legend>Play Controls:</legend>
-                <button id="start">Start</button>
-                <button id="stop" disabled="disabled">Stop</button>
+                <button id="start" onclick="onStart(); disabled" >Start</button>
+                <button id="stop" disabled="disabled"  onclick="onStop();">Stop</button>
             </fieldset>
             <fieldset>
                 <legend>Animation:</legend>
-                <select id="animation">
+                <select id="animation"  onchange="onChangeAnimation();">
                     <option id="blank">Blank</option>
                     <option id="exercise">Exercise</option>
                     <option id="juggler">Jugglor</option>
@@ -35,7 +35,7 @@
            
             <fieldset>
                 <legend>Size:</legend>
-                <select id="size">
+                <select id="size" onchange="onChangeSize();">
                     <option id="tiny">Tiny</option>
                     <option id="small">Small</option>
                     <option id="medium">Medium</option>
@@ -46,7 +46,7 @@
             </fieldset>
             <fieldset>
                 <legend>Speed:</legend>
-                <input type="checkbox" id="speed">
+                <input type="checkbox" id="speed" onchange="onCheckSpeed();">
                 <label>Turbo</label>
             </fieldset>
             
@@ -54,12 +54,12 @@
 
         <div class="validate">
             <a href="https://validator.w3.org/nu/?doc=https://omarkhris.github.io/Lab5/ascii.html">
-                <img src="w3c-html.png" alt="html validator">
+                <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator">
             </a>
             <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://omarkhris.github.io/Lab5/ascii.html">
-                <img src="w3c-css.png" alt="Valid CSS!">
+                <img src="http://mumstudents.org/cs472/2013-09/images/w3c-css.png" alt="Valid CSS!">
             </a>
-            <a href="https://mumstudents.org/jshint/check.php?uri=https://omarkhris.github.io/Lab5/ascii.html">
+            <a href="https://mumstudents.org/jshint/check.php?uri=[your_url_here]">
                 <img src="jslint.png" alt="JavaScript Lint">
             </a>
         </div>
