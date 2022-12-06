@@ -1,0 +1,25 @@
+body{
+    font-size: 20px;
+    background-color: burlywood;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h1, h2 ,h3 {
+    color: cadetblue;
+    font-family: unset;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+body p{
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body .img1 {
+    max-width : 350px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
